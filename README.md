@@ -31,7 +31,7 @@ Everything the model is allowed to vary lives in:
 ## Install (Claude Code)
 
 ```
-/plugin marketplace add mukundsharma-pidigital/pnp-provision-plugin
+/plugin marketplace add roshanvino-pi/pnp-provisioning-script
 /plugin install pnp-provision@pi-sharepoint
 ```
 
