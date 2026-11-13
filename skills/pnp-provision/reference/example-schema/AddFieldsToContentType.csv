@@ -1,0 +1,38 @@
+﻿FieldName,ContentType
+ASTHWAssetID,Hardware Assets Content Type
+ASTHWAssetName,Hardware Assets Content Type
+ASTHWCategory,Hardware Assets Content Type
+ASTHWStatus,Hardware Assets Content Type
+ASTHWAssignedTo,Hardware Assets Content Type
+ASTHWAssignedToEmail,Hardware Assets Content Type
+ASTHWDepartment,Hardware Assets Content Type
+ASTHWLocation,Hardware Assets Content Type
+ASTHWManufacturer,Hardware Assets Content Type
+ASTHWModel,Hardware Assets Content Type
+ASTHWSerialNumber,Hardware Assets Content Type
+ASTHWPurchaseDate,Hardware Assets Content Type
+ASTHWWarrantyExpiry,Hardware Assets Content Type
+ASTHWCost,Hardware Assets Content Type
+ASTHWNotes,Hardware Assets Content Type
+ASTHWLastUpdated,Hardware Assets Content Type
+ASTRequestID,Asset Requests Content Type
+ASTRequestType,Asset Requests Content Type
+ASTRequester,Asset Requests Content Type
+ASTRequestDate,Asset Requests Content Type
+ASTApprovalStatus,Asset Requests Content Type
+ASTRequestedItem,Asset Requests Content Type
+ASTRequestReason,Asset Requests Content Type
+ASTManagerApproval,Asset Requests Content Type
+ASTApprovalDate,Asset Requests Content Type
+ASTApprovalComments,Asset Requests Content Type
+ASTITNotes,Asset Requests Content Type
+ASTPriority,Asset Requests Content Type
+ASTRelatedAssetID,Asset Activity Log Content Type
+ASTAssetType,Asset Activity Log Content Type
+ASTAction,Asset Activity Log Content Type
+ASTChangedBy,Asset Activity Log Content Type
+ASTChangedDate,Asset Activity Log Content Type
+ASTFieldChanged,Asset Activity Log Content Type
+ASTOldValue,Asset Activity Log Content Type
+ASTNewValue,Asset Activity Log Content Type
+ASTActivityDetails,Asset Activity Log Content Type

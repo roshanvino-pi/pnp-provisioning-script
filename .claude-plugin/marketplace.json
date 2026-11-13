@@ -1,0 +1,15 @@
+{
+  "name": "pi-sharepoint",
+  "description": "SharePoint tooling for PI Digital Solutions. Currently ships pnp-provision, which generates PnP PowerShell provisioning packages from a project's functional docs.",
+  "owner": {
+    "name": "Mukund Sharma",
+    "email": "mukund.sharma@pidigitalsolutions.com"
+  },
+  "plugins": [
+    {
+      "name": "pnp-provision",
+      "source": "./",
+      "description": "Generate a SharePoint PnP provisioning package (MainScript + Script/ + Schema/ CSVs) from a project's functional docs."
+    }
+  ]
+}

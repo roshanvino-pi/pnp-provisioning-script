@@ -1,0 +1,18 @@
+{
+  "name": "pnp-provision",
+  "version": "1.0.0",
+  "description": "Generates a ready-to-run SharePoint PnP PowerShell provisioning package from a project's functional docs, by copying a known-good script engine verbatim and writing only the CSVs that drive it.",
+  "author": {
+    "name": "Mukund Sharma",
+    "email": "mukund.sharma@pidigitalsolutions.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "sharepoint",
+    "pnp",
+    "powershell",
+    "provisioning",
+    "site-columns",
+    "content-types"
+  ]
+}

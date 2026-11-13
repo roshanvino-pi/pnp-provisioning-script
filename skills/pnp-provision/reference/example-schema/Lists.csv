@@ -1,0 +1,4 @@
+﻿Url,Title,Template,ContentType
+lists/HardwareAssets,Hardware Assets,GenericList,Hardware Assets Content Type
+lists/AssetRequests,Asset Requests,GenericList,Asset Requests Content Type
+lists/AssetActivityLog,Asset Activity Log,GenericList,Asset Activity Log Content Type

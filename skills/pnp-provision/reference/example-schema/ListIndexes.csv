@@ -1,0 +1,16 @@
+ListName,FieldName
+Hardware Assets,ASTHWAssetID
+Hardware Assets,ASTHWStatus
+Hardware Assets,ASTHWCategory
+Hardware Assets,ASTHWAssignedTo
+Hardware Assets,ASTHWWarrantyExpiry
+Hardware Assets,ASTHWSerialNumber
+Asset Requests,ASTRequestID
+Asset Requests,ASTApprovalStatus
+Asset Requests,ASTRequester
+Asset Requests,ASTRequestDate
+Asset Requests,ASTPriority
+Asset Activity Log,ASTRelatedAssetID
+Asset Activity Log,ASTAssetType
+Asset Activity Log,ASTAction
+Asset Activity Log,ASTChangedDate

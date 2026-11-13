@@ -1,0 +1,15 @@
+# The whole promise of this plugin is that every colleague's clone yields the same script engine.
+# Leaving line endings to each machine's core.autocrlf would make that depend on local config, so
+# pin them here. These are Windows PowerShell scripts driven by CSVs; CRLF is the correct target.
+#
+# Note: the original AM - PnPScript sources had MIXED endings (04/08/09 pure LF, 01 and MainScript
+# part LF, the rest CRLF) from later edits. These rules normalize that to uniform CRLF. The script
+# CONTENT is unchanged and PowerShell is indifferent to either ending — the point is determinism.
+
+* text=auto
+
+*.ps1 text eol=crlf
+*.csv text eol=crlf
+
+*.md   text eol=lf
+*.json text eol=lf

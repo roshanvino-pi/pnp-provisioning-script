@@ -1,0 +1,46 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Lint & validate schema
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check plugin manifests are valid JSON
+        shell: pwsh
+        run: |
+          Get-ChildItem .claude-plugin -Filter *.json | ForEach-Object {
+            Get-Content $_.FullName -Raw | ConvertFrom-Json | Out-Null
+            Write-Host "OK  $($_.Name)"
+          }
+
+      - name: Parse-check all PowerShell scripts
+        shell: pwsh
+        run: |
+          $failed = $false
+          Get-ChildItem -Recurse -Filter *.ps1 | ForEach-Object {
+            $tokens = $null; $errors = $null
+            [System.Management.Automation.Language.Parser]::ParseFile($_.FullName, [ref]$tokens, [ref]$errors) | Out-Null
+            if ($errors) {
+              $failed = $true
+              $errors | ForEach-Object { Write-Host "::error file=$($_.Extent.File),line=$($_.Extent.StartLineNumber)::$($_.Message)" }
+            } else {
+              Write-Host "OK  $($_.FullName)"
+            }
+          }
+          if ($failed) { exit 1 }
+
+      - name: Validate example schema (smoke test)
+        shell: pwsh
+        run: ./skills/pnp-provision/reference/Validate-Schema.ps1 -SchemaPath ./skills/pnp-provision/reference/example-schema

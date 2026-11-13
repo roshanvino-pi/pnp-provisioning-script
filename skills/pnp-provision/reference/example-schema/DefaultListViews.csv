@@ -1,0 +1,55 @@
+ListName,ViewTitle,Columns
+Hardware Assets,All Items,ASTHWAssetID
+Hardware Assets,All Items,ASTHWAssetName
+Hardware Assets,All Items,ASTHWCategory
+Hardware Assets,All Items,ASTHWStatus
+Hardware Assets,All Items,ASTHWAssignedTo
+Hardware Assets,All Items,ASTHWDepartment
+Hardware Assets,All Items,ASTHWLocation
+Hardware Assets,All Items,ASTHWCost
+Hardware Assets,Active Assets,ASTHWAssetID
+Hardware Assets,Active Assets,ASTHWAssetName
+Hardware Assets,Active Assets,ASTHWCategory
+Hardware Assets,Active Assets,ASTHWAssignedTo
+Hardware Assets,Active Assets,ASTHWDepartment
+Hardware Assets,Active Assets,ASTHWLocation
+Hardware Assets,Active Assets,ASTHWWarrantyExpiry
+Hardware Assets,Expiring Soon,ASTHWAssetID
+Hardware Assets,Expiring Soon,ASTHWAssetName
+Hardware Assets,Expiring Soon,ASTHWCategory
+Hardware Assets,Expiring Soon,ASTHWAssignedTo
+Hardware Assets,Expiring Soon,ASTHWWarrantyExpiry
+Hardware Assets,Expiring Soon,ASTHWStatus
+Asset Requests,All Requests,ASTRequestID
+Asset Requests,All Requests,ASTRequestType
+Asset Requests,All Requests,ASTRequester
+Asset Requests,All Requests,ASTRequestDate
+Asset Requests,All Requests,ASTApprovalStatus
+Asset Requests,All Requests,ASTRequestedItem
+Asset Requests,All Requests,ASTPriority
+Asset Requests,My Pending Requests,ASTRequestID
+Asset Requests,My Pending Requests,ASTRequestType
+Asset Requests,My Pending Requests,ASTRequestedItem
+Asset Requests,My Pending Requests,ASTRequestReason
+Asset Requests,My Pending Requests,ASTRequestDate
+Asset Requests,My Pending Requests,ASTPriority
+Asset Requests,Pending Approvals,ASTRequestID
+Asset Requests,Pending Approvals,ASTRequestType
+Asset Requests,Pending Approvals,ASTRequester
+Asset Requests,Pending Approvals,ASTRequestedItem
+Asset Requests,Pending Approvals,ASTRequestReason
+Asset Requests,Pending Approvals,ASTRequestDate
+Asset Requests,Pending Approvals,ASTPriority
+Asset Activity Log,All Activity,ASTRelatedAssetID
+Asset Activity Log,All Activity,ASTAssetType
+Asset Activity Log,All Activity,ASTAction
+Asset Activity Log,All Activity,ASTChangedBy
+Asset Activity Log,All Activity,ASTChangedDate
+Asset Activity Log,All Activity,ASTActivityDetails
+Asset Activity Log,By Asset,ASTRelatedAssetID
+Asset Activity Log,By Asset,ASTAction
+Asset Activity Log,By Asset,ASTChangedBy
+Asset Activity Log,By Asset,ASTChangedDate
+Asset Activity Log,By Asset,ASTFieldChanged
+Asset Activity Log,By Asset,ASTOldValue
+Asset Activity Log,By Asset,ASTNewValue

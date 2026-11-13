@@ -1,0 +1,4 @@
+﻿Name,Group,Description,ParentContentType
+Hardware Assets Content Type,Asset Management,Hardware asset inventory content type,Item
+Asset Requests Content Type,Asset Management,Asset request workflow content type,Item
+Asset Activity Log Content Type,Asset Management,Asset activity audit trail content type,Item
